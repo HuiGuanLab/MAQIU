@@ -1,5 +1,7 @@
 # Memory-Augmented Query Intent Understanding for Efficient Chat-based Image Retrieval
 
+<img src="images/model.png" width="1100px">
+
 ## Datasets
 Please download all datasets from their respective official websites.
 - COCO 2017 Unlabeled Images
