@@ -3,25 +3,17 @@
 <img src="images/model.png" width="1100px">
 
 ## Datasets
-Download the extracted features from [Google drive](https://drive.google.com/drive/folders/1IIuN9_xcFm-ik2xeZVjpPvZK-cHu7U4q?usp=sharing)
-Please download all datasets from their respective official websites.
-- COCO 2017 Unlabeled Images
-- VisDial
+Download the extracted features from [Google drive](https://drive.google.com/drive/folders/1IIuN9_xcFm-ik2xeZVjpPvZK-cHu7U4q?usp=sharing) and place the data in the file images.
 
 ```
 - VisDial
-  ├── train
-  │   ├── images
-  │   └── visdial_1.0_train.json
-  └── val
-      ├── images
-      └── visdial_1.0_val.json
+  ├── images
+      ├── corpus_blip.pth
+      └── visdial_img_train.pth
+      └── visdial_img_val.pth
 ```
-After preparing the datasets above, please run the following script to extract the image features for efficient training:
 
-```
-python prepare_datas.py
-```
+
 ## Environments
 
 - **Ubuntu** 20.04  
